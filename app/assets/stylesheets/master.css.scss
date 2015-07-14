@@ -1,3 +1,5 @@
+/* Background pattern from subtlepatterns.com */
+
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -13,4 +15,16 @@
 h1, h2, h3, h4, h5, h6 {
 	margin:0;
 	padding:0;
+}
+
+
+body {
+	background: url('/assets/subtle_white_mini_waves.png');
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar.navbar-inverse{
+	border-radius: 0;
+	background: url('/assets/dark_embroidery.png');
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.7);
 }
