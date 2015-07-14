@@ -1,5 +1,8 @@
 /* Background pattern from subtlepatterns.com */
 
+/* Font import */
+@import url(http://fonts.googleapis.com/css?family=Biryani);
+
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -27,4 +30,11 @@ body {
 	border-radius: 0;
 	background: url('/assets/dark_embroidery.png');
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.7);
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fcfcfc;
+	font-family: 'Biryani', sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.3px;
 }
