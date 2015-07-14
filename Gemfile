@@ -35,6 +35,9 @@ end
 # Add Bootstrap 3.3.5
 gem 'bootstrap-sass', '~> 3.3.5'
 
+# kaminari paginator
+gem 'kaminari', '~> 0.16.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
