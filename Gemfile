@@ -41,6 +41,9 @@ gem 'kaminari', '~> 0.16.1'
 # simple_form gem
 gem 'simple_form'
 
+# User authentication using Devise
+gem 'devise', '>= 3.2.4'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
