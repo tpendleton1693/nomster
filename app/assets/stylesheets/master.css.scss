@@ -84,3 +84,7 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+@-ms-viewport {
+	width: device-width;
+}
