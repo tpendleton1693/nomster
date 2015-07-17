@@ -4,10 +4,6 @@
 		<h1><%= link_to place.name, place_path(place) %></h1>
 		<i><%= place.address %></i><br /><br />
 		<p><%= place.description %></p><br />
-
-		<% if place.user.present? %>
-			<small><%= place.user.email %></small>
-		<% end %>
 		<% if place.comments.present? %>
 		  <div class='col-xs-12'>
 		    <blockquote>
@@ -19,6 +15,11 @@
 		    </blockquote>
 		  </div>
 		 <% end %>
+		<% if place.photos.present? %>
+		  <div class='col-xs-4 col-xs-offset-4'>
+		  	<%= image_tag place.photos.last.picture, :class => 'img-thumbnail' %>
+		  </div>
+		<% end %>
 	</div>
 <% end %>
 
