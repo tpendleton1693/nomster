@@ -2,6 +2,7 @@
 
 /* Font import */
 @import url(http://fonts.googleapis.com/css?family=Biryani);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
 
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -35,8 +36,9 @@ body {
 
 .navbar-inverse .navbar-brand {
 	color: #fcfcfc;
-	font-family: 'Biryani', sans-serif;
+	font-family: 'Kaushan', cursive;
 	font-weight: 600;
+	font-size: 1.8em;
 	letter-spacing: -0.3px;
 }
 
@@ -99,7 +101,7 @@ blockquote p {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
-    min-height: 200px;
+    min-height: 350px;
 	max-height: 550px;
     line-height: 1;
 }
