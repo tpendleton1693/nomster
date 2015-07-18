@@ -99,8 +99,7 @@ blockquote p {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
-    min-height: 250px;
-    max-height: 550px;
+	height: 550px;
     line-height: 1;
 }
 
