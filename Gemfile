@@ -56,7 +56,10 @@ gem 'carrierwave'
 # Add fog
 gem 'fog', '~> 1.3.1'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of bf02608... Added fancybox
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
